@@ -1,0 +1,40 @@
+.wrap{
+  background: linear-gradient(to right,#F8F9FA 23.125%,#ffffff 76.875%);
+}
+.container-c{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.section{
+  width: 76.875%;
+}
+#Admin{
+  min-height: 100vh;
+}
+.arrow{
+  font-size: 18px;
+}
+.section{
+  .table{
+    th,td{
+      padding: 5px 0;
+    }
+  }
+
+}
+.pagination{
+  .page-link{
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .material-symbols-outlined{
+    vertical-align: middle;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+}

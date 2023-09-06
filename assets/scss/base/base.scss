@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500&display=swap');
+
+*, *::before, *::after {
+    // outline: 1px solid red;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0px;
+    a{
+        display: block;
+        text-decoration: none;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.text-indent-1{
+    text-indent:1rem;
+}
+.word-spacing-1{
+    word-spacing: 1cm;
+}
+.green-font{
+    color: #198754;
+}

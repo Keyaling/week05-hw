@@ -1,0 +1,36 @@
+nav{
+  width: 23.125%;
+  min-height: 100vh;
+  background-color: #F8F9FA;
+  span{
+      vertical-align: bottom;
+      margin-right: 16px;
+  }
+  .nav-tabs{
+    .nav-link{
+      text-align: start;
+      padding-left: 32px;
+      border-radius: 0px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      color: #212529;
+      &:hover{
+        color: #198754;
+      }
+    }
+  }
+}
+.user{
+  padding-left: 28px;
+  p{
+      font-size: $font-size-sm;
+      color: #6C757D;
+  }
+}
+.personImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  margin-right: 16px;
+  object-fit: cover;
+}
